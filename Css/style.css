@@ -225,3 +225,102 @@ Common Css end
      /* <!-- --------------------
      work part end
      ----------------------- --> */
+     
+     /* <!-- --------------------
+     wproject part start
+     ----------------------- --> */
+     .project{
+        padding: 128px 0px;
+     }
+     .project .box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 64px;
+        
+     }
+     .project h2{
+        font-size: 48px;
+        color: black;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif 
+        
+     }
+     .project p{
+        margin-top: 12px;
+        font-size: 16px;
+        color: black;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif 
+     }
+     .project p i{
+        margin-left: 10px;
+        
+     }
+     .project img{
+        width: 100%;
+        
+     }
+     .project .image-box{
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+     }
+     .project .imagetwo{
+        margin-left: 9px;
+     }
+     .project .fastimage{
+        position: relative;
+        overflow: hidden;
+     }
+     .project .overly{
+        width: 52%;
+        height: 100%;
+        background-image: linear-gradient(to right, #1c1e536b, #1C1E53 );
+        position: absolute;
+        top: 0;
+        left: -52%;
+        transition: .4s;
+        padding-top: 312px;
+        padding-left: 48px;
+        padding-right: 36px;
+       
+
+     }
+     .project .fastimage:hover .overly{
+        left: 0;
+     }
+     .project .fastimage .overly h4{
+        font-size: 24px;
+        color: white;
+        font-weight: 500;
+        font-family: "Poppins", sans-serif 
+     }
+     .project .fastimage .overly p{
+        font-size: 16px;
+        color: white;
+        font-weight: 500;
+        padding-top: 16px;
+        padding-bottom: 30px;
+        line-height: 28px;
+        font-family: "Poppins", sans-serif 
+     }
+     .project .fastimage .overly a{
+        font-size: 16px;
+        color: #FCD980;
+        font-weight: 500;
+        font-family: "Poppins", sans-serif 
+     }
+     
+     .project .fastimage .overly a i{
+        margin-left: 10px;
+     }
+   
+   
+   
+   
+     
+   
+     /* <!-- --------------------
+     project part end
+     ----------------------- --> */
