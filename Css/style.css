@@ -1,4 +1,7 @@
 
+
+
+
 /* ---------------- 
 Common Css start
 --------------------*/
@@ -8,6 +11,31 @@ a{
 }
 ul,ol{
     list-style: none;
+}
+.common-title h2{
+    font-size: 48px;
+    color: #282938;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif
+}
+.common-title p{
+    font-size: 16px;
+    color: #282938;
+    font-weight: 400;
+    width: 405px;
+    padding: 16px 0px;
+    font-family: "Poppins", sans-serif
+    
+    
+    
+}
+.common-title a{
+    font-size: 16px;
+    color: #2405f2;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif
+    
+    
 }
 /* ---------------- 
 Common Css end
@@ -23,6 +51,7 @@ Common Css end
      nav{
         background-color: #1C1E53;
         padding: 30px 0px !important;
+        
        
         
         
@@ -30,6 +59,7 @@ Common Css end
     .navbar-nav{
         column-gap: 32px;
         padding-right: 48px;
+
       
     }
     .nav-link{
@@ -147,4 +177,51 @@ Common Css end
     }
      /* <!-- --------------------
      Banner part end
+     ----------------------- --> */
+     /* <!-- --------------------
+     work part start
+     ----------------------- --> */
+     .work{
+        padding: 128px 0px;
+        background: #f4f6fc;
+     }
+     .work .box{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 40px;
+     }
+     .work .card{
+        width: 50%;
+        background: transparent;
+        border: 0px;
+        
+     }
+     
+     .work .card img{
+        width: 20%;
+        
+     }
+      
+     .work .card h4{
+        font-size: 32px;
+        color: #282938;
+        font-weight: 600;
+        padding-top: 16px;
+        padding-bottom: 8px;
+        font-family: "Poppins", sans-serif 
+        
+
+        
+     }
+     .work .card p{
+        font-size: 16px;
+        color: #282938;
+        font-weight: 400;
+        width: 301;
+        font-family: "Poppins", sans-serif 
+
+        
+     }
+     /* <!-- --------------------
+     work part end
      ----------------------- --> */
