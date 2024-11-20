@@ -408,3 +408,58 @@ Common Css end
      /* <!-- --------------------
      feature part end
      ----------------------- --> */
+     
+     
+     /* <!-- --------------------
+     About us part start
+     ----------------------- --> */
+     .about{
+      padding: 130px 0px;
+      background: #F6F8FC;
+     }
+     .about h2{
+      font-size: 38px;
+      font-weight: 600;
+      color: #282938;
+      width: 327px;
+      font-family: "Poppins", sans-serif
+     }
+     .about .para-one{
+      padding-top: 16px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #282938;
+      width: 327px;
+      font-family: "Poppins", sans-serif
+     }
+     .about h3{
+      font-size: 32px;
+      font-weight: 500;
+      color: #282938;;
+      line-height: 48px;
+      font-family: "Poppins", sans-serif
+     }
+
+     .about .profile-area{
+      display: flex;
+      align-items: flex-start;
+      column-gap: 14px;
+      padding-top: 48px;
+     }
+     .about .profile-area h6{
+      font-size: 18px;
+      font-weight: 500;
+      color: #282938;;
+      font-family: "Poppins", sans-serif
+     }
+     .about .profile-area .pare-two{
+      font-size: 12px;
+      font-weight: 500;
+      color: #282938;;
+      font-family: "Poppins", sans-serif
+     }
+     
+     
+     /* <!-- --------------------
+     About us part end
+     ----------------------- --> */
