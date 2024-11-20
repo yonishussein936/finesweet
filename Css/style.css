@@ -5,6 +5,9 @@
 /* ---------------- 
 Common Css start
 --------------------*/
+.body{
+   font-family: "Poppins", sans-serif
+}
 a{
     text-decoration: none;
 
@@ -16,7 +19,7 @@ ul,ol{
     font-size: 48px;
     color: #282938;
     font-weight: 600;
-    font-family: "Poppins", sans-serif
+  
 }
 .common-title p{
     font-size: 16px;
@@ -24,7 +27,7 @@ ul,ol{
     font-weight: 400;
     width: 405px;
     padding: 16px 0px;
-    font-family: "Poppins", sans-serif
+    
     
     
     
@@ -33,7 +36,7 @@ ul,ol{
     font-size: 16px;
     color: #2405f2;
     font-weight: 400;
-    font-family: "Poppins", sans-serif
+    
     
     
 }
@@ -470,17 +473,59 @@ Common Css end
       padding: 128px 0px;
 
      }
-     /* <!-- --------------------
-     Faq part end
-     ----------------------- --> */
-      /* <!-- --------------------
-     Accodian part start
-     ----------------------- --> */
      .accordion-header span{
       padding-right: 40px;
       font-size: 20px;
       color: blue;
      }
-      /* <!-- --------------------
-     Accodian part end
+     .accordion-button{
+      font-size: 24px;
+      color: #282938;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif
+     }
+     .accordion-button.collapsed{
+      color: #000 !important;
+      
+     }
+     .accordion-button{
+      color: #fff !important;
+      
+
+     
+     }
+     .accordion-item{
+      border: 0px !important;
+     }
+     .accordion-body{
+      border-bottom: 1px solid #ECECF1;
+      padding-left: 74px;
+      padding-right: 60px;
+      padding-top: 16px;
+      padding-bottom: 48px;
+      font-size: 18px;
+      color: #282938;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif
+     
+     }
+     .accordion-button::after{
+      background-image: none;
+      content: "+";
+      top: 50%;
+      right: 30px;
+      transform: translateY(-50%);
+     }
+     .accordion-button:not(.collapsed)::after{
+      background-image: none;
+      content: "x";
+      top: 40%;
+      right: 30px;
+      transform: translateY(-50%);
+
+
+     }
+     /* <!-- --------------------
+     Faq part end
      ----------------------- --> */
+     
