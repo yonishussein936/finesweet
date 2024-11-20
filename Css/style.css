@@ -463,3 +463,24 @@ Common Css end
      /* <!-- --------------------
      About us part end
      ----------------------- --> */
+     /* <!-- --------------------
+     Faq part start
+     ----------------------- --> */
+     .faq{
+      padding: 128px 0px;
+
+     }
+     /* <!-- --------------------
+     Faq part end
+     ----------------------- --> */
+      /* <!-- --------------------
+     Accodian part start
+     ----------------------- --> */
+     .accordion-header span{
+      padding-right: 40px;
+      font-size: 20px;
+      color: blue;
+     }
+      /* <!-- --------------------
+     Accodian part end
+     ----------------------- --> */
